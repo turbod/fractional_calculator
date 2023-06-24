@@ -6,7 +6,6 @@ module Fractional
   # Example:
   # puts Fractional::Calculator.calculate!('+', Rational('3/4'), Rational('3/2'))
   class Calculator
-
     def self.calculate!(operator, first_operand, second_operand)
       case operator
       when '*' then first_operand * second_operand
