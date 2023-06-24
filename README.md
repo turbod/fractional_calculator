@@ -14,22 +14,7 @@ Now you can run the script by this command:
 ```sh
 ./bin/fractional_calculator.rb
 ```
-
-## One Identity Coding Challenge
-
-Thank you for taking the One Identity coding challenge! You may use any coding language. Please
-provide the solution via a GitHub repository (preferred) or a zip file. The time spent does not need to
-be reported, but we would appreciate having the exercise returned within 7 days. We will review the
-solution and may elect to discuss it during any follow-up interviews.
-
-Code will be evaluated on these criteria:
-- The solution builds and runs. Instructions are helpful.
-- The program gives the correct answers.
-- Errors are handled and reported.
-- The code is well structured and can be readily understood.
-- The code has been tested and includes evidence of such (hint: unit tests).
-
-### The Problem
+## The Problem
 
 Write a command-line program that takes operations on fractions as input and produces a fractional
 result.
