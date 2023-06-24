@@ -26,7 +26,11 @@ module Fractional
         whole_part = rational_number.numerator / rational_number.denominator
         fractional_part = rational_number.numerator % rational_number.denominator
 
-        "#{negative ? '-' : nil}#{whole_part}#{DIVIDER}#{fractional_part}/#{rational_number.denominator}"
+        if fractional_part > 0
+          "#{negative ? '-' : nil}#{whole_part}#{DIVIDER}#{fractional_part}/#{rational_number.denominator}"
+        else
+          "#{negative ? '-' : nil}#{whole_part}"
+        end
       end
 
       private
